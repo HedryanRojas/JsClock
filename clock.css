@@ -1,0 +1,25 @@
+:root {
+    --background-color: #f7f7f7;
+    --background-color-dark: #121212;
+}
+
+body { 
+    background-color: var(--background-color);
+    color: black;
+}
+
+.clock {
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+    body { 
+        background-color: var(--background-color-dark);
+        color: white;
+    }
+}
+
